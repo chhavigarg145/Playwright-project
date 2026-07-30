@@ -1,0 +1,20 @@
+{
+  "name": "automation0712",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:sequential": "npx playwright test tests/HomePage.spec.ts tests/LoginPage.spec.ts tests/SignUpPage.spec.ts tests/LogOut.spec.ts --workers=1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2",
+    "typescript": "^7.0.2"
+  }
+}

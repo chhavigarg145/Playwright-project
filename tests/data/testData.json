@@ -1,0 +1,29 @@
+  {
+  "login": {
+    "username": "chhavi.garg@example.com",
+    "password": "password123"
+  },
+  "urls": {
+    "loginPage": "https://automationexercise.com/"
+  },
+  "signup": {
+    "username": "chhavi",
+    "email":  "chhavigarg@example.com",
+    "title": "Mr.",
+   "password": "password123",
+    "day": "1",
+    "month": "1",
+    "year": "1990",
+   "firstName": "Chhavi",
+     "lastName": "Garg",
+     "company": "ABC",
+      "address": "123 Main St",
+      "address2": "Apt 4B",
+      "state": "California",
+      "city": "Los Angeles",
+      "zipcode": "90210",
+    "mobileNumber": "555-1234"
+  
+    
+  }
+}
