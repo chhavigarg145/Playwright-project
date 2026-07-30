@@ -1,4 +1,4 @@
-name: CI
+name: Regression Test
 
 on:
   push:
