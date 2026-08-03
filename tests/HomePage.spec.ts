@@ -13,4 +13,6 @@ test('Verify links', async ({ page, homePage }) => {
   await homePage.verifyAPITestingLinkIsVisible();
   await homePage.verifyVideoTutorialsLinkIsVisible();
   await homePage.verifyContactUsLinkIsVisible();12323f
+   await homePage.verifyContactUsLinkIsVisible();12323f update to test rebase
+  
 });
