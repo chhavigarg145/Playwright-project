@@ -12,5 +12,5 @@ test('Verify links', async ({ page, homePage }) => {
   await homePage.verifyTestCasesLinkIsVisible();
   await homePage.verifyAPITestingLinkIsVisible();
   await homePage.verifyVideoTutorialsLinkIsVisible();
-  await homePage.verifyContactUsLinkIsVisible();12323
+  await homePage.verifyContactUsLinkIsVisible();12323f
 });
