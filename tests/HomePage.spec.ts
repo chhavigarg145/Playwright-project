@@ -12,9 +12,13 @@ test('Verify links', async ({ page, homePage }) => {
   await homePage.verifyTestCasesLinkIsVisible();
   await homePage.verifyAPITestingLinkIsVisible();
   await homePage.verifyVideoTutorialsLinkIsVisible();
+<<<<<<< Updated upstream
   await homePage.verifyContactUsLinkIsVisible();12323f
    await homePage.verifyContactUsLinkIsVisible();12323f update to test rebase
    added
    
   
+=======
+  await homePage.verifyContactUsLinkIsVisible();
+>>>>>>> Stashed changes
 });
