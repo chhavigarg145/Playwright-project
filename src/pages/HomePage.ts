@@ -1,6 +1,6 @@
 import { Page, expect } from '@playwright/test';
 import { BasePage } from './BasePage';
-
+test
 export class HomePage extends BasePage {
   logoImg = "xpath=//img[@alt='Website for automation practice']";
   homeLink = this.page.getByRole('link', { name: 'Home' });
